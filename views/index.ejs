@@ -1,0 +1,98 @@
+<% include partials/header %>
+
+<!-- Page Contents -->
+<div class="pusher">
+    <div class="ui inverted vertical masthead center aligned segment">
+
+    <!-- NAV -->
+        <div class="ui container">
+            <div class="ui large secondary inverted pointing menu">
+                <a href="/" class="active item">Home</a>
+                <a href="/tax" class="item">Tax Calculator</a>
+            </div>
+        </div>
+
+        <!-- CONTENT -->
+        <div id="content" class="ui text container center aligned">
+            <img id="headerImg" src="/dice.png" alt="">
+            <h1 class="ui inverted header">Odds Staking Calculator</h1>
+            <h2>Calculate your odds of winning the stake.</h2>
+            <div id="stats" class="ui attached">
+                <div class="ui container center aligned">
+                    <div class="ui grid">
+                        <div class="two column row">
+
+                            <div class="sixteen wide mobile eight wide tablet eight wide computer column">
+                                <div class="input">
+                                    <input maxlength="12" id="p1Name" type="text" name="p1Name" placeholder="Player 1 Name">
+                                </div>
+                                <canvas class="viewport" width=190 height=256 id="p1"></canvas>
+                                <div class="player1 items">
+                                    <img class="weapon" src="/abyssal_whip.png" value="abyssal_whip">
+                                    <img class="weapon enabled" src="/abyssal_tentacle.png" value="abyssal_tentacle">
+                                    <img class="weapon" src="/dragon_scimitar.png" value="dragon_scimitar">
+                                    <img class="weapon hasta" src="/zamorakian_hasta.png" value="zamorakian_hasta">
+                                </div>
+                            </div>
+
+                            <div class="sixteen wide mobile eight wide tablet eight wide computer column">
+                                <div class="input">
+                                    <input maxlength="12" id="p2Name" type="text" name="p2Name" placeholder="Player 2 Name">
+                                </div>
+                                <canvas class="viewport" width=190 height=256 id="p2"></canvas>
+                                <div class="player2 items">
+                                    <img class="weapon" src="/abyssal_whip.png" value="abyssal_whip">
+                                    <img class="weapon enabled" src="/abyssal_tentacle.png" value="abyssal_tentacle">
+                                    <img class="weapon" src="/dragon_scimitar.png" value="dragon_scimitar">
+                                    <img class="weapon hasta" src="/zamorakian_hasta.png" value="zamorakian_hasta">
+                                </div>
+                            </div>
+
+                        </div>
+
+                    <div id="calculate" class="ui inverted button">
+                                Calculate
+                        </div>
+
+                        <!-- modal -->
+                    <div class="ui basic modal">
+                        <div class="ui header center aligned">Player Stats</div>
+                        <div class="content manual">
+                            <div>
+                                <input maxlength="2" class="manstat" type="text" name="" placeholder="Attack">
+                            </div>
+                            <div>
+                                <input maxlength="2" class="manstat" type="text" name="" placeholder="Strength">
+                            </div>
+                            <div>
+                                <input maxlength="2" class="manstat" type="text" name="" placeholder="Defence">
+                            </div>
+                            <div>
+                                <input maxlength="2" class="manstat" type="text" name="" placeholder="Hitpoints">
+                            </div>
+                        </div>
+                        <div class="actions manual">
+                            <div class="ui buttons cancel">
+                                <button class="ui button">Cancel</button>
+                                <div class="or"></div>
+                                <button id="submit" class="ui positive button ok active">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+<% include partials/footer %>

@@ -1,0 +1,21 @@
+{
+  "name": "oddstakingw",
+  "version": "1.0.0",
+  "description": "Oddstaking calculator",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shawn Ploeg",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "http": "0.0.0",
+    "jquery": "^3.3.1",
+    "osrs-json-hiscores": "^1.1.1",
+    "osrs-wrapper": "^1.0.4",
+    "request": "^2.88.0"
+  }
+}

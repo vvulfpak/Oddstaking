@@ -1,0 +1,102 @@
+/* @font-face kit by Fonts2u (https://fonts2u.com) */ 
+@font-face {
+    font-family:"RuneScape UF Regular";
+    src:url("runescape_uf.eot?") format("eot"),
+        url("runescape_uf.woff") format("woff"),
+        url("runescape_uf.ttf") format("truetype"),
+        url("runescape_uf.svg#RuneScape-UF") format("svg");
+    font-weight:normal;
+    font-style:normal;
+}
+
+#headerImg{
+    width: 90px;
+    height: 90px;
+}
+
+#stats{
+    padding-top: 15px;
+    background-color: #181a1b;
+    border-radius: 5em;
+}
+
+#calculate{
+    margin: 20px auto;
+}
+
+.manual{
+    width: fit-content !important;
+    margin: 0 auto !important;
+}
+
+.items img{
+    padding: 1px;
+    background: #404040;
+    height: 30px;
+    width: 30px;
+    border: 0 solid black;
+    border-radius: 0.2em;
+    cursor: pointer;
+}
+
+.hasta{
+    margin-left: 40px;
+}
+
+.items img.hasta{
+    background: rgb(255,11,73);
+    background: radial-gradient(circle, rgba(255,11,73,1) 0%, rgba(252,70,70,1) 100%);
+}
+
+.items img.enabled{
+    background: rgb(12,251,27);
+    background: radial-gradient(circle, rgba(12,251,27,1) 0%, rgba(0,255,124,1) 100%);
+}
+
+input{
+    width: 144px;
+    margin: 0 auto;
+    text-align: center;
+    border: none;
+    background: #404040;
+    font-family: "RuneScape UF Regular" !important;
+    color: #d9d9d9;
+    border-radius: 2em;
+    margin-bottom: 3px;
+}
+
+input:focus{
+    outline: none;
+    border: 2px solid #345c9d;
+    border-radius: 2em;
+}
+
+input::placeholder{
+    color: #d9d9d9;
+}
+
+.ui.header{
+    font-family: "RuneScape UF Regular" !important;
+    font-size: 4em !important;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+                0px 8px 13px rgba(0,0,0,0.1),
+                0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.ui.text.container{
+    font-family: "RuneScape UF Regular";
+}
+
+canvas{
+    font-family: "RuneScape UF Regular" !important;
+    cursor: pointer;
+}
+
+body{
+    font-family: "RuneScape UF Regular";
+    background: #1b1c1d;
+}
+
+div.pusher{
+    height: 100%;
+}
